@@ -1,37 +1,15 @@
-
-#navbar{
-    border:0000.1px black solid;
-    margin-top:0
-
-  }
-
-  #imgBrand{
-    height:6.9rem;
-    width: 6.9rem;
-  }
-
-  #link-nav{
-    color:black;
-    background-color: #F6D8B3;
-    border: 0.0001rem solid black;
-
-  
-  }
-
-  #user-nav{
-    color:black;
-    background-color: #D1E7DD;
-    border: 0.0001rem solid black;
-
-  }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap');
 
 
-  #button-nav{
-  background-color: #D1E7DD;
-  }
 
+
+
+body{
+  align-items: center;
+
+}
   #cartelVendido{
-    background-color: #b0e2cc;
+    background-color: #b0ccc0;
   color:rgb(238, 203, 209);
   }
 
@@ -42,16 +20,17 @@
 
 
 
-#hover-prueba:hover{
-  background-color: #b0e2cc;
+
+
+
+@media (max-width: 991px) {
+  
+
+
+
 }
 
-.card {
-  height: 400px;
-  width: 300px;
-}
 
-#img-producto{
-  width: 100%;
-  height:250px;
-}
+
+
+

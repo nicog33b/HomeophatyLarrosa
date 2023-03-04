@@ -1,0 +1,39 @@
+.product-sell:hover{
+background-color:#eff8f4; ;
+}
+
+.card-body{
+    text-align: center;
+    justify-content: center;
+}
+.card-footer{
+    text-align: center;
+    justify-content: center;
+}
+
+.img-fluid{
+    width: 100%;
+    height: 300px;
+}
+
+@media(max-width:1271){
+    .img-fluid{
+        height:250px;
+    }
+}
+
+@media(max-width:991){
+    .img-fluid{
+        height:200px;
+    
+    }
+
+    .col-md-3{
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+}
+
+.row{
+margin-bottom: 6px; margin-top: 6px;
+}

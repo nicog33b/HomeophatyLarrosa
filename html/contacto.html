@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Medicamentos homeopaticos y tienda naturista" />
+    <meta name="author" content="Nicolás García"/>
+    <title>Homeopatía Larrosa</title>
+    <!--Font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/289fc15593.css"
+      crossorigin="anonymous"
+    />
+
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="../css/arreglosContacto.css" rel="stylesheet" />
+    <link href="../css/navbar-footer.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="sendAlert" class="alert alert-success text-center">POR PEDIDOS MAYORES A $1500 EL ENVÍO ES GRATIS!</div>
+    <!-- Responsive navbar-->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark" role="navigation">
+      <div class="container px-5">
+        <a class="navbar-brand" href="#">
+          <img
+            id="imgBrand"
+            src="../images/SinFondoLogo.jpg"
+            class="d-inline-block align-top"
+            alt="Logo de mi marca"
+            width="69"
+          height="69"
+          />
+        </a>      
+        <li class="navbar nav-item inact">
+          <a id="cart-user" class="nav-link" href="#!"><i class="fa-solid fa-cart-shopping"></i></a>
+        </li>
+        <li class="navbar nav-item dropdown inact">
+          <a
+            id="user-nav"
+            ref="#"
+            class="nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            >&nbsp;<i class="fa-solid fa-user"></i></i></a
+          >
+          <div class="dropdown-menu dropdown-menu-end">
+            <a href="#" class="dropdown-item">Reports</a>
+            <a href="#" class="dropdown-item">Settings</a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">Logout</a>
+          </div>
+        </li>
+        </ul>
+        <button
+        id="button-nav"
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                id="link-nav"
+                class="nav-link"
+                aria-current="page"
+                href="index.html"
+                >&nbsp;Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a id="link-nav" class="nav-link " href="productos.html">&nbsp;Productos</a>
+            </li>
+            <li class="nav-item">
+              <a id="link-nav" class="nav-link" href="nosotros.html">&nbsp;Nosotros</a>
+            </li>
+            <li class="nav-item active">
+              <a id="link-nav" class="nav-link" href="contacto.html">&nbsp;Contacto</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item act">
+              <a id="cart-user" class="nav-link" href="#!"><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+            <li class="nav-item dropdown act">
+              <a
+                id="user-nav"
+                ref="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >&nbsp;<i class="fa-solid fa-user"></i></i></a
+              >
+              <div class="dropdown-menu dropdown-menu-end act">
+                <a href="#" class="dropdown-item">Reports</a>
+                <a href="#" class="dropdown-item">Settings</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">Logout</a>
+              </div>
+            </li>
+        </ul>  
+        </div>
+      </div>
+    </nav>
+   
+    <div class="contact-area">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <div class="section-title">
+<h2>Contacta con <span>Nosotros</span></h2>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6 col-sm-12 col-xs-12">
+    <div class="contact-form">
+      <form>
+        <div class="form-group">
+          <input id="contactName" type="text" class="form-control" id="inputName" placeholder="Ingresa tu nombre">
+        </div>
+        <div class="form-group">
+          <input id="contactEmail" type="email" class="form-control" id="inputEmail" placeholder="Ingresa tu email">
+        </div>
+        <div class="form-group">
+          <textarea id="contactMensaje" class="form-control" cols="30" rows="10" placeholder="Escribe aqui tu mensaje"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Enviar</button>
+      </form>
+    </div>
+  </div>
+  <div class="col-md-6 col-sm-12 col-xs-12">
+    <div class="map-area">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d689.3950616211995!2d-55.96117453114293!3d-34.72197329511223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a026992468f637%3A0x9fb9a6a4135411d3!2sHomeopatia%20Larrosa!5e0!3m2!1ses-419!2suy!4v1677786645264!5m2!1ses-419!2suy" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</div>
+</div>
+    </div>
+
+
+  
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-white text-muted">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Redes sociales:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-instagram"></i>
+          </a>
+       
+
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3 text-secondary"></i>Homeopatía Larrosa
+              </h6>
+              <p>
+                Homeopatía y tienda naturista.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+  
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Navegación</h6>
+              <p>
+                <a href="index.html" class="text-reset">Inicio</a>
+              </p>
+              <p>
+                <a href="productos.html" class="text-reset">Productos</a>
+              </p>
+              <p>
+                <a href="nosotros.html" class="text-reset">Nosotros</a>
+              </p>
+              <p>
+                <a href="contacto.html" class="text-reset">Contactos</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p>
+                <i class="fas fa-home me-3 text-secondary"></i> Pando, Canelones, Uruguay.
+              </p>
+              <p>
+                <i class="fas fa-envelope me-3 text-secondary"></i>
+                Larrosa@gmail.com
+              </p>
+              <p>
+                <i class="fas fa-phone me-3 text-secondary"></i> + 59894272390
+              </p>
+              <p>
+                <i class="fas fa-print me-3 text-secondary"></i> + 22921995
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.025)"
+      >
+        © 2023 Copyright:
+        <a class="text-reset fw-bold" href="#"
+          >CuanticoIT</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/289fc15593.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

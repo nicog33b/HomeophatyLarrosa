@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap');
+
+#sendAlert{
+    font-family:'Poppins', sans-serif;;
+}
+
+#navbar{
+    border:0000.1px black solid;
+    margin-top:0
+
+  }
+
+  #imgBrand{
+    height:6.9rem;
+    width: 6.9rem;
+  }
+
+  #cart-user{
+    color:black;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #cart-user:hover{
+    background-color: #F6D8B3;
+  }
+
+
+  #link-nav{
+    color:black;
+    font-family: 'Poppins', sans-serif;
+
+   /* background-color: #F6D8B3;*/
+   /* border: 0.0001rem solid black;*/
+  }
+
+  #link-nav:hover{
+    background-color: #F6D8B3;
+  }
+
+  .active{
+    background-color: #F6D8B3;
+  }
+
+  #user-nav{
+    color:black;
+    font-family: 'Poppins', sans-serif;
+   /* border: 0.0001rem solid black;*/
+
+  }
+
+#user-nav:hover{
+   background-color:#D1E7DD;
+}
+
+  #button-nav{
+  background-color: #D1E7DD;
+  }
+
+  .act{
+  
+  }
+  
+  .inact{
+    display:none;
+  }
+  
+  #hover-prueba:hover{
+    background-color: #b0e2cc;
+  }
+
+  @media (max-width: 991px) {
+    #link-nav{
+   display: flex;
+     background-color: #F6D8B3;
+      border: 0.0001rem solid black;
+    }
+  
+    #link-nav:hover{
+      background-color: aliceblue;
+    }
+  
+    #user-nav{
+      width: 56px;
+      height: 40px;
+    }
+    
+    #cart-user{
+  
+     width: 56px;
+     height: 40px;
+  
+    }
+  
+    .act{
+      display:none;
+    }
+    
+    .inact{
+      display:inline
+    
+    }
+  
+  
+  }
+  
+  @media (max-width: 392px) {
+    #user-nav{
+      width: 50px;
+      height: 36px;
+    }
+    
+    #cart-user{
+  
+     width: 50px;
+     height: 36px;
+  
+    }
+  
+    #imgBrand{
+      height:5.4rem;
+      width: 5.4rem;
+    }
+  
+  }
